@@ -1,0 +1,61 @@
+section{
+    div{
+        display: flex;
+        align-items: center;
+        // margin: 5px;
+        // .w{
+        //     background-color: gray;
+        // }
+        .clr{
+            padding: 3px 11px;
+        }
+        button{
+            margin: 5px ;
+            border-radius: 2px;
+            border: transparent;
+        }
+        .r{
+            background-color: red;
+        }
+        .g{
+            background-color: green;
+        }
+        .b{
+            background-color: rgb(78, 142, 184);
+        }
+        // .square{
+        //     padding: 10px 15px;
+        //     border: 2px black solid;
+        // }
+        // .dashed{
+        //     padding: 10px 15px;
+        //     // border: 2px black 2px;
+        //     border: dashed;
+        // }
+        // .points{
+        //     padding: 10px 15px;
+        //     // border: 2px black 2px;
+        //     border: dotted;
+        // }
+        // .top{
+        //     padding: 6px 11px;
+        // }
+        // .topLigne{
+        //     padding: 6px 11px;
+        //     border-top: red solid;
+        // }
+        // .topDark{
+        //     padding: 6px 11px;
+        //     border-top: red solid 6px;
+        // }
+        
+        input{
+            display: flex;
+            margin: 4px;
+            width: 40px;
+            height: 20px;
+            border: gray solid 1px;
+            border-radius: 5px;
+        }
+    }
+}

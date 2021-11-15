@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <header>
+        <h2>Le DOM - Exo: StyleGenerator</h2>
+    </header>
+    <section>
+
+        <div>
+            <button class="w clr" >W</button>
+            <button class="r clr" >R</button>
+            <button class="g clr" >G</button>
+            <button class="b clr" >B</button>
+            <button class="same square" style="padding: 10px 15px; border: 2px solid;"></button>
+            <button class="same dashed" style="padding: 10px 15px; border: dashed;"></button>
+            <button class="same points" style="padding: 10px 15px; border: dotted;"></button>
+            <button class="same top" style="padding: 6px 11px;">top</button>
+            <button class="same topLigne" style="padding: 6px 11px; border-top: red solid;">top</button>
+            <button class="same topDark" style="padding: 6px 11px; border-top: red solid 6px;">top</button>
+        </div>
+        <div>
+            <input type="color">
+            <input class="rnd" type="number" style="border: solid;">
+            <input class="rnd" type="number" style="border-top: solid;">
+            <input class="rnd" type="number" style="border-right: solid;">
+            <input class="rnd" type="number" style="border-bottom: solid;">
+            <input class="rnd" type="number" style="border-left: solid;">
+        </div>
+        <div>
+            <input class="rnd arrondir" type="number" style="border: solid; border-radius: 10px;">
+            <input class="rnd arrondir" type="number" style="border-radius: 10px 0 0 0; border-left: solid; border-top: solid;">
+            <input class="rnd arrondir" type="number" style="border-radius: 0 10px 0 0; border-top: solid; border-right: solid;">
+            <input class="rnd arrondir" type="number" style="border-radius: 0 0 10px 0; border-right: solid; border-bottom: solid;">
+            <input class="rnd arrondir" type="number" style="border-radius: 0 0 0 10px; border-bottom: solid; border-left: solid;">
+        </div>
+    </section>
+    <footer>
+        <div class="resultat">
+
+        </div>
+    </footer>        
+        
+        
+
+
+    <script src="./public/js/main.js"></script>
+</body>
+</html>
