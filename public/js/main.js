@@ -48,7 +48,7 @@ let typeColor = document.getElementsByTagName('input')[0];
 console.log(typeColor);
 
 typeColor.addEventListener('input', () => {
-    resultat.style.backgroundColor = typeColor.value;
+    resultat.style.borderColor = typeColor.value;
 });
 
 let rnd = document.querySelectorAll('.rnd')
